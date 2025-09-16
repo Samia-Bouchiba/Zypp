@@ -1,2 +1,2 @@
-# RentalX_20-07-24
-Welcome to our comprehensive tutorial on building a responsive car rental website using HTML, CSS, and JavaScript!
+# Zypp
+Digital School Project / Zypp – Site web de location de trottinettes électriques
