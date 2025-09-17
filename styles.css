@@ -208,7 +208,7 @@ nav {
 }
 
 .header__links img {
-  max-width: 125px;
+  max-width: 500px;
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
@@ -409,7 +409,7 @@ nav {
 }
 
 .download__links img {
-  max-width: 125px;
+  max-width: 500px;
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
@@ -946,7 +946,7 @@ nav {
 .history-table td {
   padding: 1rem;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid white;
 }
 
 .history-table th {
@@ -956,7 +956,7 @@ nav {
 }
 
 .history-table td {
-  color: var(--text-light);
+  color: white;
 }
 
 .history-table tr:hover {
