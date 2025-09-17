@@ -42,7 +42,7 @@
   border: none;
   font-size: 1rem;
   color: var(--white);
-  background-color: #474fa0;
+  background-color: var(--primary-color);
   white-space: nowrap;
   border-radius: 4px;
   transition: 0.3s;
@@ -50,12 +50,12 @@
 }
 
 .btn:hover {
-  background-color: #3c4286;
+  background-color: #0F0BF4;
 }
 
 img {
   display: flex;
-  width: 100%;
+  width: 60%;
 }
 
 a {
@@ -724,4 +724,256 @@ nav {
   margin: 2rem auto 0 auto;  
   text-align: left;          
 }
+
+.form-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: var(--extra-light);
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  background: var(--gradient);
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
+
+.form-container p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+.form-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: var(--extra-light);
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  background: var(--gradient);
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
+
+.form-container p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: var(--extra-light);
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  background: var(--gradient);
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
+
+.form-container p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+
+.history-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--gradient);
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.history-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text-dark);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+.history-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.summary-card {
+  flex: 1;
+  padding: 1rem;
+  background: var(--extra-light);
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.summary-card h3 {
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.summary-card p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--text-dark);
+}
+
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.history-table th, 
+.history-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.history-table th {
+  background: var(--extra-light);
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.history-table td {
+  color: var(--text-light);
+}
+
+.history-table tr:hover {
+  background: var(--gradient);
+}
+
+.status {
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.status.success { background: #28a745; }
+.status.warning { background: #ffc107; color: #000; }
+.status.danger  { background: #dc3545; }
+
+
 
