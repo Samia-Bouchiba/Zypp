@@ -939,14 +939,6 @@ nav {
 .history-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-.history-table th, 
-.history-table td {
-  padding: 1rem;
-  text-align: left;
-  border-bottom: 1px solid white;
 }
 
 .history-table th {
