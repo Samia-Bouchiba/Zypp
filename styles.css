@@ -967,5 +967,7 @@ nav {
 .status.warning { background: #ffc107; color: #000; }
 .status.danger  { background: #dc3545; }
 
-
-
+.download__image img {
+  border-radius: 30px; /* ajuste la valeur comme tu veux */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* optionnel, joli effet */
+}
